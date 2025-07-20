@@ -1,0 +1,44 @@
+.message {
+    fill: #06c;
+    box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.1), 0 5px 20px 0 rgba(29, 33, 38, 0.03);
+
+
+}
+
+.imageAndText {
+
+    width: 575px;
+    height: 77px;
+
+}
+
+.imageAndText img {
+
+}
+
+.text {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.text:after {
+
+}
+
+.name {
+
+}
+
+.messageText {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.time {
+
+}
