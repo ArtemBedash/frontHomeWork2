@@ -19,6 +19,7 @@ root.render(
                 <App/>
             </DevSupport>
         </Provider>
+
     </React.StrictMode>
 )
 
