@@ -1,25 +1,48 @@
 .button {
+
+    width: 100px;
+    height: 30px;
+
+    transition: transform 0.2s ease;
+
 }
 
 .disabled {
+
+    background-color: lightgray;
+    opacity: 0.6;
+
+
 }
 
 .secondary {
+    background-color: #0066CC;
+
 }
 
 .default {
+
+    background: darkgrey;
+
 }
 
 .red {
+
+    background-color: red;
 }
 
 .default:hover {
+
+    background-color: grey;
+    transform: scale(1.1)
 }
 
 .red:hover {
+    transform: scale(1.1)
 }
 
 .secondary:hover {
+    transform: scale(1.1)
 }
 
 
@@ -33,4 +56,6 @@
 }
 
 .button:disabled {
+
+    background-color: lightgray;
 }

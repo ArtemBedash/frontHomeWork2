@@ -3,10 +3,10 @@ import s from './Greeting.module.css'
 
 type GreetingPropsType = {
     name: string
-    setNameCallback: (e:ChangeEvent<HTMLInputElement>) => void
+    setNameCallback: (e: ChangeEvent<HTMLInputElement>) => void
     addUser: () => void
     onBlur: () => void
-    onEnter: (e:KeyboardEvent) => void
+    onEnter: (e: KeyboardEvent) => void
     error: string,
     totalUsers: number
     lastUserName?: string
@@ -25,7 +25,7 @@ const Greeting: React.FC<GreetingPropsType> = (
         lastUserName,
     } // деструктуризация пропсов
 ) => {
-    const inputClass = s.errorInput // need to fix with (?:)
+    const inputClass = error ? s.errorInput : s.input // need to fix with (?:)
 
     return (
         <div id={'hw3-form'} className={s.greetingForm}>
