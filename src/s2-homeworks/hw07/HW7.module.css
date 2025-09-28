@@ -1,2 +1,8 @@
 .container {
+margin-top: 40px;
+    max-width: 1200px;
+    display: flex;
+    gap:120px;
+    border: black solid 1px;
+    padding: 10px;
 }

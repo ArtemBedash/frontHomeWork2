@@ -2,6 +2,8 @@
 
     width: 100px;
     height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
 
     transition: transform 0.2s ease;
 
@@ -16,13 +18,16 @@
 }
 
 .secondary {
-    background-color: #0066CC;
+    background-color: white;
+    color:#0066CC;
 
 }
 
 .default {
 
-    background: darkgrey;
+    background-color: #0066CC;
+    color: white;
+
 
 }
 

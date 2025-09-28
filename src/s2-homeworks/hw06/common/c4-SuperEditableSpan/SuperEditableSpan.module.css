@@ -2,9 +2,14 @@
 }
 
 .span {
+    color: #0059b3;
 }
 
 .input {
+    border: 1px solid black;
+    width: 275px;
+    height: 40px;
+
 }
 
 .pen {
