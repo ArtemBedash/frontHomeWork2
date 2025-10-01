@@ -1,23 +1,49 @@
 .item {
+
 }
 
+
 .item:last-of-type {
+
+
 }
 
 .users {
+    border-collapse: collapse;
+
+
 }
 
 .buttonsContainer {
+
+    display: flex;
+    gap: 15px;
+    justify-content: center;
 }
 
 .container {
 }
 
 .thead {
+    font-weight: bold !important;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #000;
+
+
+
 }
 
 .nameCol {
+    padding-right: 60px;
+
+
 }
 
 .ageCol {
+
+}
+
+.users tbody td {
+    border-bottom: 1px solid #ccc; /* легкая линия снизу */
+    padding: 5px 0; /* отступ сверху и снизу */
 }
