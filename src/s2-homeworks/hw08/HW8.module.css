@@ -19,9 +19,14 @@
     display: flex;
     gap: 15px;
     justify-content: center;
+    margin: 20px 0;
 }
 
 .container {
+
+    padding: 0 30px;
+
+    margin-bottom: 50px;
 }
 
 .thead {
