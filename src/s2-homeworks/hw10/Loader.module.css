@@ -1,3 +1,20 @@
 .loader {
-    /*свг и/или анимация*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+
+    border: 6px solid rgba(79, 70, 229, 0.2); /* светлый круг */
+    border-top-color: #4f46e5; /* цвет активной дуги */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Анимация вращения */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
 }
